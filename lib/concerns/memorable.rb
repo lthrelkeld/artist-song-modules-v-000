@@ -3,7 +3,7 @@ module Memorable
     @@all = []
 
     def self.count
-      self.all.count
+      @@all.count
     end
 
     def self.all
@@ -13,6 +13,6 @@ module Memorable
     def self.reset_all
       @@all.clear
     end
-    
+
   end
 end
