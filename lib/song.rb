@@ -7,11 +7,11 @@ class Song
 #  @@songs = []
 
   def initialize
-    @@songs << self
+    @@all << self
   end
 
   def self.find_by_name(name)
-    @@songs.detect{|a| a.name == name}
+    @@all.detect{|a| a.name == name}
   end
 
   def artist=(artist)
@@ -19,7 +19,7 @@ class Song
   end
 
   def self.reset_all
-    @@songs.clear
+    @@all.clear
   end
 
   def to_param
