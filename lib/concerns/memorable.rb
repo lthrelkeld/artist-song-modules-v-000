@@ -3,15 +3,11 @@ module Memorable
     @@all = []
 
     def count
-      @@all.count
-    end
-
-    def all
-      @@all
+      self.all.count
     end
 
     def reset_all
-      @@all.clear
+      self.all.clear
     end
 
   end
