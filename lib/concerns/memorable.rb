@@ -1,7 +1,5 @@
 module Memorable
   module ClassMethods
-    @@all = []
-
     def count
       self.all.count
     end
