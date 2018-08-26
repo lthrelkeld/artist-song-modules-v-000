@@ -1,13 +1,13 @@
 module Memorable
   module ClassMethods
-    @@all
+    @@all = []
 
     def self.count
       self.all.count
     end
 
     def self.all
-      @@songs
+      @@all
     end
   end
 end
