@@ -2,15 +2,15 @@ module Memorable
   module ClassMethods
     @@all = []
 
-    def self.count
+    def count
       @@all.count
     end
 
-    def self.all
+    def all
       @@all
     end
 
-    def self.reset_all
+    def reset_all
       @@all.clear
     end
 
