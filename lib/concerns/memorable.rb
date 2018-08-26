@@ -1,5 +1,5 @@
 module Memorable
-
+module ClassMethods
 def self.count
   self.all.count
 end
@@ -7,5 +7,5 @@ end
 def self.all
   @@songs
 end
-
+end
 end
